@@ -260,4 +260,6 @@ fixtures = [
 ]
 
 # For remove all the workspaces from the custom app when the app is uninstall
-after_app_uninstall = "education_dashboard.uninstall.after_uninstall"
+# after_app_uninstall = "education_dashboard.uninstall.after_uninstall"
+
+before_uninstall = "education_dashboard.uninstall.before_uninstall"
