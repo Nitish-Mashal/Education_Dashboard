@@ -22,7 +22,7 @@ def after_uninstall():
     for chart in charts:
         frappe.delete_doc("Dashboard Chart", chart, force=1, ignore_permissions=True)
 
-    # (Optional) Delete Number Cards if you add them later
+    # Delete Number Cards (optional)
     cards = frappe.get_all("Number Card", filters={"module": "Education"}, pluck="name")
     for card in cards:
         frappe.delete_doc("Number Card", card, force=1, ignore_permissions=True)
