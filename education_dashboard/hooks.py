@@ -242,3 +242,22 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {"dt": "Workspace", "filters": [
+        ["name", "in", [
+            "Education Dashboard",
+            "Student Info",
+            "Instructor Info",
+            "Attendance Student",
+            "Student Course",
+            "Student Fees",
+            "Program Enrollment Student",
+            "Academic",
+
+        ]]
+    ]},
+    {"dt": "Dashboard Chart", "filters": [["module", "=", "Education"]]},
+]
+
+# For remove all the workspaces from the custom app when the app is uninstall
+after_uninstall = "education_theme.uninstall.after_uninstall"
