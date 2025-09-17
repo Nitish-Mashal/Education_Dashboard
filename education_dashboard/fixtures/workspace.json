@@ -30,7 +30,7 @@
     "parenttype": "Workspace"
    }
   ],
-  "content": "[{\"id\":\"rI1VWJiDt1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Education Dashboard</span>\",\"col\":12}},{\"id\":\"GTex6266Fr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Students List\",\"col\":6}},{\"id\":\"ymZXkVduOr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Total Instructor\",\"col\":6}},{\"id\":\"PBfT8cA3C6\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Course\",\"col\":6}},{\"id\":\"sXG4DhnLcv\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Student Batch\",\"col\":6}},{\"id\":\"3dA-1P1UwV\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Events\",\"col\":4}},{\"id\":\"5i_0hFPm1J\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Announcement\",\"col\":4}},{\"id\":\"XkEC59W1Bj\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Calendar\",\"col\":4}},{\"id\":\"I_llVYvlGS\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Student\",\"col\":4}},{\"id\":\"-sVsYq0awj\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Student Batch Name\",\"col\":4}},{\"id\":\"1yMsBiFKdW\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Course\",\"col\":4}}]",
+  "content": "[{\"id\":\"rI1VWJiDt1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Education Dashboard</span>\",\"col\":12}},{\"id\":\"GTex6266Fr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Students List\",\"col\":6}},{\"id\":\"ymZXkVduOr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Total Instructor\",\"col\":6}},{\"id\":\"PBfT8cA3C6\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Course\",\"col\":6}},{\"id\":\"sXG4DhnLcv\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Student Batch\",\"col\":6}},{\"id\":\"3dA-1P1UwV\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Events\",\"col\":6}},{\"id\":\"I_llVYvlGS\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Student\",\"col\":6}},{\"id\":\"-sVsYq0awj\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Student Batch Name\",\"col\":6}},{\"id\":\"1yMsBiFKdW\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Course\",\"col\":6}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -41,7 +41,7 @@
   "is_hidden": 0,
   "label": "Education Dashboard",
   "links": [],
-  "modified": "2025-09-12 17:22:59.418369",
+  "modified": "2025-09-17 16:22:09.910624",
   "module": "Education",
   "name": "Education Dashboard",
   "number_cards": [],
@@ -51,14 +51,6 @@
    {
     "document_type": "Event",
     "label": "Events",
-    "parent": "Education Dashboard",
-    "parentfield": "quick_lists",
-    "parenttype": "Workspace",
-    "quick_list_filter": "[]"
-   },
-   {
-    "document_type": "Announcement",
-    "label": "Announcement",
     "parent": "Education Dashboard",
     "parentfield": "quick_lists",
     "parenttype": "Workspace",
@@ -83,14 +75,6 @@
    {
     "document_type": "Course",
     "label": "Course",
-    "parent": "Education Dashboard",
-    "parentfield": "quick_lists",
-    "parenttype": "Workspace",
-    "quick_list_filter": "[]"
-   },
-   {
-    "document_type": "Calendar View",
-    "label": "Calendar",
     "parent": "Education Dashboard",
     "parentfield": "quick_lists",
     "parenttype": "Workspace",
